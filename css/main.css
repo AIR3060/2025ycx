@@ -469,11 +469,15 @@ body {
 }
 
 .type_words p {
-    margin: 0 0 15px 0;
+    margin: 0;
     display: block;
     font-size: 1.15rem;
     line-height: 1.5;
-    white-space: pre-line;
+    white-space: pre-wrap;
+}
+
+.blink {
+    margin-left: 2px;
 }
 
 .type_words p:last-child {
