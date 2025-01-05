@@ -456,30 +456,34 @@ body {
 }
 
 .type_words {
-    text-align: center;
-    margin: 0 auto;
+    text-align: left;
     width: 100%;
     max-width: 800px;
-    padding: 20px;
+    padding: 30px;
     color: #ffffff;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    transform: none;
     z-index: 999;
 }
 
 .type_words p {
-    margin: 0;
+    margin: 0 0 15px 0;
     display: block;
-    font-size: 1.2rem;
-    line-height: 2;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    white-space: pre-line;
+}
+
+.type_words p:last-child {
+    margin-bottom: 0;
 }
 
 .type_words br {
     display: block;
     content: "";
-    margin: 10px 0;
+    margin: 8px 0;
 }
 
 
