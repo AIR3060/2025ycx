@@ -461,15 +461,25 @@ body {
     width: 100%;
     max-width: 800px;
     padding: 20px;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+    color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
 }
 
 .type_words p {
     margin: 0;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    line-height: 1.8;
+    display: block;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.type_words br {
+    display: block;
+    content: "";
+    margin: 10px 0;
 }
 
 
